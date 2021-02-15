@@ -1,3 +1,8 @@
+//app.js file
+//Kathryn Robertson
+//Student Number 301166619
+//Feb 14, 2021
+
 //installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');

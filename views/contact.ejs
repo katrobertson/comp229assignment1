@@ -10,13 +10,15 @@
 
 <div class="container">
     <div class="row justify-content-start">
+        <h1>How to Contact me!</h1>
         Kathryn Robertson
         <br>kathryn.robertson3@gmail.com
         <br>Hamilton, Ontario, Canada  
     </div>
 
 </div>
- 
+
+<div class="container">
 <form>
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name</label>
@@ -34,8 +36,11 @@
         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>  
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="button" class="submit" data-dismiss="alert" aria-label="Submit">
+        <span aria-hidden="true">&times;</span>
+      </button>
 </form>
+</div>
 
 <%- include partials/bottom_nav.ejs %>
 <%- include partials/footer.ejs %>

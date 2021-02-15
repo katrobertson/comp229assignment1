@@ -18,17 +18,17 @@ router.get('/about', function(req, res, next) {
 
 /* GET Products page. */
 router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+  res.render('products', { title: 'Products' });
 });
 
 /* GET Services page. */
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+  res.render('services', { title: 'Services' });
 });
 
 /* GET Contact Us page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact Us' });
+  res.render('contact', { title: 'Contact Us' });
 });
 
 module.exports = router;

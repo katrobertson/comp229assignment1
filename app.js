@@ -9,7 +9,7 @@ let indexRouter = require('./routes/index');
 let usersRouter = require('./routes/users');
 
 let app = express();
-
+//To allow images to work 
 app.use(express.static('public'));
 
 // view engine setup
